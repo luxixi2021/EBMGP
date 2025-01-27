@@ -1,7 +1,6 @@
 import warnings
 from typing import Optional, List, Tuple
 from einops.layers.torch import Rearrange
-import pytorch_lightning as pl
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
