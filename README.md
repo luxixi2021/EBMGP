@@ -1,16 +1,2 @@
-# DNA Playground
-
-## Usage
-
-```bash
-conda create -n dna python=3.9
-conda activate dna
-conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
-
-git clone https://github.com/luxixi2021/EBMGP.git
-cd dna-playground
-pip install -v -e .
-
-# train
-python tools/train.py fit --config configs/htrans.yaml
-```
+EBMGP: A deep learning model for genomic prediction based on Elastic Net feature selection, Bidirectional Encoder Representations from Transformers embedding and Multi-head attention pooling
+![Fig  1](https://github.com/user-attachments/assets/f94ed973-3839-4fef-a675-c43a947f14cf)
